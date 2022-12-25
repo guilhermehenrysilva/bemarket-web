@@ -1,11 +1,19 @@
-<h1 align="center"><b>Bemarket Web</b></h1>
+<h2 align="center"><b>Bemarket Web</b></h2>
 
-<p align="center"> 
-  you can check Bemarket API [here](https://github.com/rodrigoge/bemarket)
-</p>
+## 🔶 How to execute
+```bash
+### Install dependencies
+npm install
+
+### Run project
+npm run dev
+```
+
+## ✅ Information
+You can check Bemarket API - [here](https://github.com/rodrigoge/bemarket)
 
 ## ⚛️ Tools
-- [Figma](https://www.figma.com/file/Clu9nP4co9FHm1MHIBURti/Be-Market?node-id=1%3A2&t=BzaHaizZsvhIVgb8-0)
+- [Project Figma](https://www.figma.com/file/Clu9nP4co9FHm1MHIBURti/Be-Market?node-id=1%3A2&t=BzaHaizZsvhIVgb8-0)
 
 ---
 
