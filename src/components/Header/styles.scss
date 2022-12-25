@@ -1,25 +1,26 @@
-
-.logo {
-
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    padding-left: 24px;
+header {
+    background-color: white;
     z-index: 2000;
     position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
     top: 0;
-    margin-top: 30px;
+    left: 0;
 
+    .logo {
+        padding-left: 24px;
 
-    #first-letter{
-        font-size: 48px;
-        color: #3F3F3F;
-        font-weight: 700;
-    }
-    
-    #full-text{
-        font-size: 48px;
-        color: #F98F14;
-        font-weight: 500;
+        #first-letter {
+            font-size: 48px;
+            color: #3F3F3F;
+            font-weight: 700;
+        }
+
+        #full-text {
+            font-size: 48px;
+            color: #F98F14;
+            font-weight: 500;
+        }
     }
 }

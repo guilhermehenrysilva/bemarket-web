@@ -1,7 +1,10 @@
 import './styles.scss';
-import Header from "../../components/Header";
-import { BiSearch } from 'react-icons/bi';
 
+import React from 'react'
+import Select from 'react-select'
+import Header from "../../components/Header";
+import { BiSearch, BiChevronDown } from 'react-icons/bi';
+import Item from '../../components/Item';
 
 export default function Products() {
     return (
@@ -22,6 +25,17 @@ export default function Products() {
                     </select>
                 </div>
             </div>
+
+            <div className="product-list">
+                <Item />
+                <Item />
+                <Item />
+                <Item />
+                <Item />
+                <Item />
+                <Item />
+            </div>
+
         </>
     )
 }
